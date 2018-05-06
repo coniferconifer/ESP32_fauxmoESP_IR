@@ -30,7 +30,7 @@ send.............  done
 ### what's new
 - Json data for NEC sealing light and SHARP air conditioner are included in the source.
 
-![ESP32_fauxmoESP](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/fauxmoESP.jpg = 250x)
+![ESP32_fauxmoESP](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/fauxmoESP.jpg)
 
 ## License: Apache License v2
 
@@ -54,6 +54,6 @@ send.............  done
 - [https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)
 - [http://www.geeetech.com/wiki/index.php/CY7C68013](http://www.geeetech.com/wiki/index.php/CY7C68013)
 
-![NEC light remocon received](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/NEC_light.png = 250x)
+![NEC light remocon received](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/NEC_light.png)
 
-![CY7C68013A-56 EZ-USB FX2LP USB board for sigrok](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/sigrok.JPG = 250x)
+![CY7C68013A-56 EZ-USB FX2LP USB board for sigrok](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/sigrok.JPG)
