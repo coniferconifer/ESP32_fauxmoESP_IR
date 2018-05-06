@@ -41,10 +41,12 @@ send.............  done
 ## References
 
 ### fauxmoESP: Amazon Alexa support for ESP8266 and ESP32 devices.  
-  [https://bitbucket.org/xoseperez/fauxmoesp](https://bitbucket.org/xoseperez/fauxmoesp)
+-  [https://bitbucket.org/xoseperez/fauxmoesp](https://bitbucket.org/xoseperez/fauxmoesp)
   
 ### sigrok logic analyzer
-  [https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)
-  [http://www.geeetech.com/wiki/index.php/CY7C68013](http://www.geeetech.com/wiki/index.php/CY7C68013)
+- [https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)
+- [http://www.geeetech.com/wiki/index.php/CY7C68013](http://www.geeetech.com/wiki/index.php/CY7C68013)
+
 ![NEC light remocon received](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/NEC_light.png)
+
 ![CY7C68013A-56 EZ-USB FX2LP USB board for sigrok](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/sigrok.JPG)
