@@ -1,14 +1,25 @@
-// IR JSON data generetor for ESP32_fauximo_Basic_IR.ino
+// IR JSON data generetor for ESP32_fauximoESP_IR_recorder.ino
 // by coniferconifer http://github.com/coniferconifer
-// Apache v2 license
 //
 // This program waits for IR signal input from VS1383/CHQ1383 IR receiver connected to
 // GIPIO35 and prints out JSON format data compatible to IRKit http://getirkit.com/en/
-// every 10sec , should be used for alexa IR remote controller ESP32_fauximo_Basic_IR.ino
+// every 10sec , should be used for alexa IR remote controller ESP32_fauximoESP_IR_sender.ino
 //
-//
-//https://github.com/espressif/esp-idf/blob/master/examples/peripherals/rmt_nec_tx_rx/main/infrared_nec_main.c
-//
+/* Author: coniferconifer
+   License: Apache License v2
+   May 2,2018
+
+  Reference
+  [1] fauximoESP "Amazon Alexa support for ESP8266 and ESP32 devices."
+  https://bitbucket.org/xoseperez/fauxmoesp
+
+  [2] code for IR remote controller on ESP32
+  https://qiita.com/td2sk/items/4c0ef83bcc7e74e5e8d5
+  https://github.com/espressif/esp-idf/blob/master/examples/peripherals/rmt_nec_tx_rx/main/infrared_nec_main.c
+
+  [3] Json format for IR controller is compatible with IRkit
+  http://getirkit.com/en/
+*/
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/rmt.h"
