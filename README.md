@@ -13,6 +13,10 @@
 
 ## License: Apache License v2
 
+## hardware: 
+- CHQ1838 IR receiver output is connected to GPIO 35
+- IR LED is connected to GPIO 33 , driven by NPN transiter 2N5551
+  
 ## References
 
 ### fauxmoESP: Amazon Alexa support for ESP8266 and ESP32 devices.  
