@@ -6,10 +6,10 @@
 - step 1 setup serial terminal software (teraterm etc) , set speed 115200bps.
 - step 2 run ESP32_fauxmoESP_IR_recorder.ino
 - step 3 send IR signal by pressing a button on your remote controller.
-- step 4 copy and paste the json data recorded by ESP32_fauxmoESP_IR_recorder.ino
+- step 4 copy the json data recorded by ESP32_fauxmoESP_IR_recorder.ino and past it into ESP32_fauxmoESP_sender.ino
 - step 5 prepare credentials.h for your WiFi AP and run ESP32_fauxmoESP_IR_sender.ino 
-         this program appears as "swich one" in Alexa application
-- step 6 install Alexa application from GooglePlay and add "swtch one" as "aircon" from smarthome menu.
+         this program appears as "switch one" in Alexa application
+- step 6 install Alexa application from GooglePlay and add "switch one" as "aircon" from smarthome menu.
 - step 7 wait for few seconds to connect to WiFi access point and recognized from Amazon Echo
 - step 8 speak to Amazon Echo "turn on aircon", "turn off aircon"
 
