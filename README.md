@@ -5,8 +5,14 @@
 - step 2 run ESP32_fauxmoESP_IR_recorder.ino
 - step 3 send IR signal by pressing a button on your remote controller.
 - step 4 copy and paste the json data recorded by ESP32_fauxmoESP_IR_recorder.ino
+- step 5 prepare credentials.h for your WiFi AP and run ESP32_fauxmoESP_IR_sender.ino 
+         this program appears as "swich one" in Alexa application
+- step 6 install Alexa application from GooglePlay and add "swtch one" as "aircon" from smarthome menu.
+- step 7 wait for few seconds to connect to WiFi access point and recognized from Amazon Echo
+- step 8 speak to Amazon Echo "turn on aircon", "turn off aircon"
 
-```ESP32_fauxmoESP_IR_sender
+```
+ESP32_fauxmoESP_IR_sender
 20180504
 [WIFI] Connecting to aterm-3933 ........
 [WIFI] STATION Mode, SSID: aterm-3933ce-g, IP address: 192.168.13.11
