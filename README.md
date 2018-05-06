@@ -30,7 +30,7 @@ send.............  done
 ### what's new
 - Json data for NEC sealing light and SHARP air conditioner are included in the source.
 
-![ESP32_fauxmoESP](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/fauxmoESP.jpg)
+![ESP32_fauxmoESP](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/fauxmoESP.jpg =250x)
 
 ## License: Apache License v2
 
@@ -41,12 +41,19 @@ send.............  done
 ## References
 
 ### fauxmoESP: Amazon Alexa support for ESP8266 and ESP32 devices.  
--  [https://bitbucket.org/xoseperez/fauxmoesp](https://bitbucket.org/xoseperez/fauxmoesp)
+- [https://bitbucket.org/xoseperez/fauxmoesp](https://bitbucket.org/xoseperez/fauxmoesp)
+
+### How to use IR sender / receiver on ESP32
+- [https://qiita.com/td2sk/items/4c0ef83bcc7e74e5e8d5](https://qiita.com/td2sk/items/4c0ef83bcc7e74e5e8d5)
+### sender/receiver code for ESP32
+- [https://github.com/espressif/esp-idf/blob/master/examples/peripherals/rmt_nec_tx_rx/main/infrared_nec_main.c](https://github.com/espressif/esp-idf/blob/master/examples/peripherals/rmt_nec_tx_rx/main/infrared_nec_main.c)  
+### Json format for IR controller is compatible with IRKit
+- [http://getirkit.com/en/](http://getirkit.com/en/)
   
 ### sigrok logic analyzer
 - [https://sigrok.org/wiki/PulseView](https://sigrok.org/wiki/PulseView)
 - [http://www.geeetech.com/wiki/index.php/CY7C68013](http://www.geeetech.com/wiki/index.php/CY7C68013)
 
-![NEC light remocon received](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/NEC_light.png)
+![NEC light remocon received](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/NEC_light.png =250x)
 
-![CY7C68013A-56 EZ-USB FX2LP USB board for sigrok](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/sigrok.JPG)
+![CY7C68013A-56 EZ-USB FX2LP USB board for sigrok](https://github.com/coniferconifer/ESP32_fauxmoESP_IR/blob/master/sigrok.JPG =250x)
