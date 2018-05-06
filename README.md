@@ -1,5 +1,7 @@
 ## IR remote commander for Alexa (Amazon echo) by ESP32
- change json data in the source code for the device to be controlled by IR remote controller
+ Thanks to fauxmoESP , voice command can send IR signal to control nearby appliances.
+ Change json data in the source code for the device to be controlled by IR remote controller.
+ 
 ### How to get IR command Json data 
 - step 1 setup serial terminal software (teraterm etc) , set speed 115200bps.
 - step 2 run ESP32_fauxmoESP_IR_recorder.ino
@@ -15,7 +17,7 @@
 ESP32_fauxmoESP_IR_sender
 20180504
 [WIFI] Connecting to aterm-3933 ........
-[WIFI] STATION Mode, SSID: aterm-3933ce-g, IP address: 192.168.13.11
+[WIFI] STATION Mode, SSID: aterm-3933, IP address: 192.168.13.11
 [MAIN] Device #0 (switch one) state: ON
 {"message":{"format":"raw","freq":38,"data":[7620,3744,980,894,984,2794,984,892,984,2794,982,894,984,2792,984,894,984,2792,984,894,984,2794,982,894,984,2794,982,2792,982,894,986,2792,982,894,986,2794,980,2792,982,2794,982,2794,982,894,984,894,984,2794,982,2792,982,894,986,894,984,894,984,894,986,2790,984,894,984,894,984,896,984,2794,982,2792,984,2790,984,894,984,894,984,894,984,894,986,894,984,2792,984,894,984,894,984,894,984,2794,984,892,984,894,986,892,984,896,984,2794,982,894,984,894,984,894,986,2786,986,894,984,894,986,894,984,894,984,894,986,892,986,894,984,894,986,892,984,894,986,892,986,894,984,894,984,2794,982,894,986,892,986,892,986,894,984,894,986,892,986,894,984,894,984,894,984,894,986,892,986,2792,984,894,982,896,984,894,984,894,984,896,984,894,984,894,984,894,984,896,986,892,984,2792,984,894,984,2792,984,2790,984,2792,984,2794,982,2790,984,894,986,892,986,894,984,894,984,894,984,894,984,896,984,0]},"hostname":"IRKitD2A4","deviceid":"XXXXXXXX"}
 Json parsed
